@@ -34,6 +34,7 @@ public class Play {
 				winner = this.getGame().AddPoint(i);
 			}
 		}
+		in.close();
 	}
 	
 	/**
